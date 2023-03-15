@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Datos generales</legend>
+        <label for="clave">Clave de su área (comenzando con A)</label>
+        <input type="text" name="clave" id="clave">
+        <br>
+        <label for="nombre">Nombre del técnico evaluado:</label>
+        <input type="nombre" name="nombre" id="nombre">
+        <br>
+        <label for="servicio">Servivio a evaluar:</label>
+        <select name="servicio" id="servicio">
+            <option value="resolucion">Resolución de problemas software</option>
+            <option value="opc2">Opción 2</option>
+            <option value="opc3">Opción 3</option>
+        </select>
+        <br>
+        <label for="fecha">Fecha en que se proporciona el servicio:</label>
+        <input type="date" name="fecha" id="fecha">
+        </fieldset>
+
+        <br>
+    </form>
+    <form action="">
+        <fieldset><legend>Satisfacción general del servicio</legend>
+        <label for="satisfaccion">Satisfaccion general con el servicio:</label>
+        <select name="satis" id="satis">
+            <option value="seleccione">Seleccione</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+        <br>
+        <label for="problema">Su problema se resolvió:</label>
+        <select name="problema" id="problema">
+            <option value="seleccione">Seleccione</option>
+        </select>
+        <br>
+        <label for="oportunidas">Con que oportunidad se resolvió su problema:</label>
+        <select name="opr" id="opr">
+            <option value="Seleccione">Seleccione</option>
+            <option value="op2">Opción 2</option>
+        </select>
+        <br>
+        <label for="comentarios">Comentarios adicionales</label><br>
+        <textarea name="comentarios" id="coment" cols="30" rows="10"></textarea></fieldset>
+        
+    </form>
+</body>
+</html>

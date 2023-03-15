@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Sora:wght@800&family=Vollkorn:ital@0;1&display=swap');
+
+.titulo1, .subtitulo{
+    font-family: 'Sora', sans-serif;
+}
+
+.fondoimg{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 200, 255);
+    background-image: url(fondodelarevista.jpg);
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffeff6
+}
+h1{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: #ff8d7b;
+}
+h2{
+    
+   color: #c88984; 
+}
+h4{
+    color: white;
+}
+p{
+    color: #947280;
+}
+img{
+    width: 350px;
+}
+/* img:hover{
+    width: 500px;
+} */
+
+section{
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+    color: rgb(246, 246, 246);
+}
+article{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(177, 177, 177);
+    border-radius: 10px;
+}
+article:hover{
+    background-color: black;
+    color: #ffe3df;
+}
+article:hover h1{
+    color: rgb(224, 43, 224);
+}

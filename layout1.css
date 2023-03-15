@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.contenedor{
+    width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+body{
+    background: rgb(99, 97, 120);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+header{
+    background: #fff;
+}
+header nav{
+    width: 100%;
+
+    overflow: hidden;
+
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 15px 20px ;
+}
+header nav ul li a:hover{
+    background: black;
+    color: white;
+
+}
+.main{
+    width: 700px;
+    background: white;
+    float: left;
+    /* pueden ser 700px o 70% */
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .publicacion{
+    padding: 45px;
+}
+.main .publicacion article h2{
+    margin-bottom: 20px;
+    color: #525252;
+}
+.main .publicacion article p{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+aside{
+    width: 30%;
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    float: left;
+
+}
+aside .widget{
+    margin-bottom: 15px;
+
+}
+
+aside .widget .titulo{
+    color: rgb(255, 83, 21);
+    border-bottom: 3px solid rgb(255, 89, 6);
+    margin-bottom: 15px;
+
+}
+
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 2px solid rgba(255, 255, 255, 255);
+    padding: 5px 0;
+}
+
+aside .widget ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+aside .widget ul li a:hover{
+    color: rgb(61, 61, 61);
+}
+
+aside .widget p{
+    line-height: 25px;
+}
+
+footer{
+    width: 70%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 0;
+    overflow: hidden;
+}
+@media (max-width: 750px){
+    body{
+        background: #000;
+    }
+    header{
+        background: black;
+    }
+    header nav ul li{
+        color: white;
+    }
+    header nav ul li:hover{
+        background: white;
+        color: black;
+    }
+    header nav ul li{
+        float: right;
+    }
+    .main .publicacion article h2{
+        color: aliceblue;
+        border-bottom: 1px solid white;
+    }
+    .main{
+        width: 100%;
+        background: black;
+        color: white;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    /* .main{
+
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    } */
+}

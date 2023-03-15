@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplo de Applet con Java</h1>
+    <p>Un <strong>applet</strong>  conforme a lo que encontramos en la página de Oracle: "es una aplicación hecha en Java que se llama desde un docuemnto HTML y se ejecuta dentro de un navegador". Es necesario recordar que el <ins>navegador </ins> debe tener instalado el plugin de la Máquina Virtual de Java (JVM).</p>
+    <br>
+    <p> <i>Máquina Virtual de Java:</i>  Es un programa que se encarga de ejecuatr el bytecode generado por el compilador de Java.</p>
+    <br>
+    <p>Para entender la forma en que se manejan los <strong>applets</strong>   vamos a ver un ejemplo que se presenta el clásico<span style="background-color: yellow
+    ;"> Hola mundo: </span></p>
+
+    <p>Como puede observarse la única variable que utiliza este applet es g que representa un objeto de la clase Graphics sobre el cual vamos a dibujar la cadena de texto que resulta de ejecutar el applet.</p>
+    <br>
+    <br>
+    <p>La salida del programa será: Hola mundo!!</p>
+    <br>
+    <p>Para ejecutarlo es necesario mandarlo llamar desde una página HTML utilizando la etiqueta <i><</i><em>applet</em><i>></i>  o la etiqueta <object>. En el primer caso el archivo .class se declara en el atributo code, en el segundo se delcara un elemento param donde sus atributos name será code y value será el nombre del applet.Cabe mencionar que en el segundo caso es necesario declarar otros elementos param adicionales y en elemento object declarar algunos parámetros como classid, codebase y type. en ambos casos es necesario declarar el tamaño de la ventana del applet con los parámetros width y height.</p>
+    <p>Todos sabemos que este es un ejemplo muy sencillo y lo habremos visto ya bastantes veces, probablemnetecuando Dennis N. Ritchie lo escribió en lenguaje C, jamás imaginó que sería utilizado como ejemplo inicial de tantos lenguajes de programación.</p>
+</body>
+</html>

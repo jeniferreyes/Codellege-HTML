@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- Tipos de inputs -->
+    <form action="BD.php" method=""> <!--puede ser get o post-->
+        <!--<input type="text" name="" id="">
+        <br>
+        <input type="number" min="8" max="100">
+        <br>
+        <input type="email" name="" id="">
+        <br>
+        <input type="password" placeholder="contraseña" name="" id="">
+        <br>
+        <input type="range" min="5" max="10" name="" id="">
+        <br>
+        <input type="color" name="color" id="">
+
+        <input type="submit"  value="Enviar" name="" id="">-->
+        <label for="nombre">Nombre</label>
+        <br>
+        <input type="text" placeholder="Inserta nombre" maxlength="20" id="nombre" required>
+        <br>
+        <input type="email" placeholder="Correo electrónico" >
+        <br>
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            <br>
+            <label for="Pais">País</label>
+            <select name="pais" id="pais">
+                <option value="">---</option>
+                <option value="mexico">México</option>
+                <option value="francia">francia</option>
+                <option value="alemania">Alemania</option>
+            </select>
+            <br>
+        <input type="radio" name="genero"  value="Hombre" id="hombre"><label for="Hombre">Hombre</label>
+        <br>
+        <input type="radio" name="genero"  value="Mujer" id="mujer"><label for="Hombre">Mujer</label>
+        <br>
+        <input type="radio" name="genero"  value="Otro" id="otro"><label for="Hombre">Otro</label>
+        <br>
+        <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Términos</label>
+        <br>
+        <input type="checkbox" name="publicidad" id="publicidad"><label for="publicidad">Aceptas que te mandemos correo con las nuevas promociones </label>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" >
+        <br>
+        <!-- Implementar un formulario consiste en varios pasos
+        1. Escribir la interfaz del usuario.
+        2. Implementar el procesamiento del lado del servidor.
+        3. Configurar la interfaz del usuario para comunicarse con el servidor. -->
+        <!-- 
+            Atributos globales del elemento <input>
+            - name: nombre del elemento para efectos de envio
+            - disabled: el control esta deshabilitado
+            - form: formulario al que pertenece ele elemnto
+            - maxlength: máxima longitud de la entrada
+            - readonly: indica que el control no puede ser editado.
+            - size: numero de opciones a presentar
+            - value: valor por defecto del elemnto.
+            - dirname: 
+            - autofocus:
+            list:
+
+
+     -->   
+     <!-- 
+        article: elementos de tipo bloque
+        div:
+        section: elementos de tipo bloque
+      -->
+    </form>
+    <!-- 
+
+     -->
+</body>
+</html>
